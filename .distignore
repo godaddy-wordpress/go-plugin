@@ -1,0 +1,16 @@
+.*
+package*
+composer*
+phpcs.xml
+webpack*
+README.md
+
+vendor
+node_modules
+
+release
+wordpress
+
+src/*/
+src/*.js
+src/*.scss

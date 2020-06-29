@@ -1,0 +1,28 @@
+# Copyright (c) 2020 GoDaddy Operating Company, LLC. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: Go Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/godaddy-wordpress/go-plugin/issues\n"
+"Last-Translator: plugins@godaddy.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-06-29T21:16:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: go-plugin\n"
+
+#. Plugin Name of the plugin
+#. Description of the plugin
+msgid "Go Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.godaddy.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "GoDaddy"
+msgstr ""

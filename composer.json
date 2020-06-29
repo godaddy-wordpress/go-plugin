@@ -1,0 +1,28 @@
+{
+	"name": "godaddy-wordpress/go-plugin",
+	"description": "Go Plugin",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-only",
+	"require": {
+		"php": ">=5.6"
+	},
+	"config": {
+		"platform": {
+			"php": "5.6"
+		}
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.5",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"wp-coding-standards/wpcs": "^2.1",
+		"wp-cli/dist-archive-command": "^2.0",
+		"wp-cli/wp-cli-bundle": "^2.4"
+	},
+	"scripts": {
+		"format": "@php ./vendor/bin/phpcbf",
+		"lint": "@php ./vendor/bin/phpcs",
+		"build-release": "wp dist-archive ./",
+		"makepot": "wp i18n make-pot . --exclude=\"node_modules,vendor,wordpress\" --headers='{\"Last-Translator\":\"plugins@godaddy.com\",\"Report-Msgid-Bugs-To\":\"https://github.com/godaddy-wordpress/go-plugin/issues\"}' --file-comment=\"Copyright (c) $(date +'%Y') GoDaddy Operating Company, LLC. All Rights Reserved.\""
+	}
+}
