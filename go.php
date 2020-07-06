@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Go Plugin
+ * Plugin Name: Go
  * Plugin URI: https://www.godaddy.com
- * Description: Go Plugin
+ * Description: Adds layouts for the CoBlocks Layout Selector to make building pages much easier and faster.
  * Author: GoDaddy
  * Author URI: https://www.godaddy.com
  * Version: 1.0.0
@@ -57,28 +57,28 @@ function go_plugin_layout_selector_categories( $categories ) {
 	if ( ! in_array( 'about', $loaded_slugs, true ) ) {
 		$categories[] = array(
 			'slug'  => 'about',
-			'title' => __( 'About', 'go_plugin' ),
+			'title' => __( 'About', 'go' ),
 		);
 	}
 
 	if ( ! in_array( 'contact', $loaded_slugs, true ) ) {
 		$categories[] = array(
 			'slug'  => 'contact',
-			'title' => __( 'Contact', 'go_plugin' ),
+			'title' => __( 'Contact', 'go' ),
 		);
 	}
 
 	if ( ! in_array( 'home', $loaded_slugs, true ) ) {
 		$categories[] = array(
 			'slug'  => 'home',
-			'title' => __( 'Home', 'go_plugin' ),
+			'title' => __( 'Home', 'go' ),
 		);
 	}
 
 	if ( ! in_array( 'portfolio', $loaded_slugs, true ) ) {
 		$categories[] = array(
 			'slug'  => 'portfolio',
-			'title' => __( 'Portfolio', 'go_plugin' ),
+			'title' => __( 'Portfolio', 'go' ),
 		);
 	}
 
