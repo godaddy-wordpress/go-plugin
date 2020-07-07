@@ -15,7 +15,7 @@ msgstr ""
 
 #. Plugin Name of the plugin
 #. Description of the plugin
-msgid "Go Plugin"
+msgid "Go"
 msgstr ""
 
 #. Plugin URI of the plugin
