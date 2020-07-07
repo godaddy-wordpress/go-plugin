@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Go
  * Plugin URI: https://www.godaddy.com
- * Description: Adds layouts for the CoBlocks Layout Selector to make building pages much easier and faster.
+ * Description: Add layouts for the CoBlocks Layout Selector to make building pages much easier and faster.
  * Author: GoDaddy
  * Author URI: https://www.godaddy.com
  * Version: 1.0.0
